@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V & A Fashion Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section id="header">
+        <div id="shopname">
+        <a href="#"><img src="assets/Logo.jpg" class="logo"></a>
+            <h3>V & A Fashion Shop</h3>
+        </div>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="browse.html">Browse</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div id="mobile">
+            <img src="assets/bar1.png" alt="">
+        </div>
+
+    </section>
+    
+    <section id="contact-details" class="section-p1">
+        <div class="details">
+            <span>CONTACT US</span>
+            <h2>Visit our store or contact us today</h2>
+            <h3>Main Branch</h3>
+            <div>
+                <li>
+                    <p>LoloBoy Compound Purok 3 Alabel Sarangani province, General Santos City</p>
+                </li>
+                <li>
+                    <p>contact@example.com</p>
+                </li>
+                <li>
+                    <p>(+63)987 654 3219</p>
+                </li>
+                <li>
+                    <p>Monday to Friday From 10AM to 5PM</p>
+                </li>
+            </div>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31736.57541127401!2d125.26972844999997!3d6.1210213499999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f774977eee0ef7%3A0x5fa1abb90ce3ec1a!2sLolo%20Boy%20Prime%20Water!5e0!3m2!1sen!2sph!4v1709479620864!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <section id="form-details">
+        <form onsubmit="emailSend(); reset(); return false;">
+            <span>MESSAGE US</span>
+            <h2>We love to hear your feedback</h2>
+            <input type="text" id="name" placeholder="Your Name">
+            <input type="email" id="email" placeholder="E-mail">
+            <input type="text" id="subject" placeholder="Subject">
+            <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <button type="submit"class="normal">Submit</button>
+        </form>
+    </section>
+
+    <section id="newsletter" class="section-p1">
+        <div class="newstext">
+            <h4>Sign up for Newsletter</h4>
+            <p>Get updates about our latest and <span>special offers!</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Enter your E-mail address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="assets/Logo.jpg">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> Address</p>
+            <p><strong>Phone:</strong> (+63)987 654 3219</p>
+            <p><strong>Hours:</strong> 10:00 AM - 5:00 PM (MON - FRI)</p>
+        </div>
+        <div class="col">
+            <h4>Products</h4>
+            <a href="#">For Men</a>
+            <a href="#">For Women</a>
+            <a href="#">For Kids</a>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>News</h4>
+            <a href="#">Latest Products</a>
+            <a href="#">Discounts</a>
+        </div>
+        <div class="copyright">
+            <p>© 2024, All Rights Reserved</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script src="main.js"></script>
+</body>
+</html>
